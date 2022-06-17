@@ -7,8 +7,8 @@ from attr import resolve_types
 btnprofile = KeyboardButton(' profil ')
 profilekey = ReplyKeyboardMarkup(resize_keyboard= True).add(btnprofile)
 
-btnurchannel = InlineKeyboardButton(text='🕋  1-kanal  🕋', url='https://t.me/ilmziyomaskani')
-btnurchannel2 = InlineKeyboardButton(text='🕋  2-kanal  🕋', url='https://t.me/elyorbekerkinbek')
+btnurchannel = InlineKeyboardButton(text='🕋  1-kanal  🕋', url='https://t.me/sharqiy_turkiston')
+btnurchannel2 = InlineKeyboardButton(text='🕋  2-kanal  🕋', url='https://t.me/uzbek_economis1')
 btndonesub = InlineKeyboardButton(text='A\'zo buldim 🔴', callback_data="subchanneldone")
 
 checksubmenu = InlineKeyboardMarkup(row_width=1)
